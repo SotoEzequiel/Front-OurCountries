@@ -1,0 +1,29 @@
+.bar{
+   width: 300px;
+   font-size: 26px;
+   text-decoration: none;
+   border-style: none;
+    height: 30px;
+   background-color: rgb(249, 244, 252);
+   border-radius: 7px;
+   font-family: fantasy;
+   margin-top: 15px;
+   color: rgb(53, 50, 46);
+}
+.button{
+        height: 33px;
+        display: inline-block;
+        bottom: 3px;
+        background-color:rgb(245, 241, 248) ;
+        border-radius: 30px;
+        border-style: hidden;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: fantasy;
+        color: rgb(54, 54, 52);
+        text-decoration: none;
+        position: relative;
+}
+.nav{
+
+}

@@ -1,0 +1,46 @@
+.todo{
+    background-color: rgba(175, 206, 124, 0.555);
+    padding: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    border-radius: 100px;
+    color: rgb(44, 43, 43);
+}
+.titulo{
+    padding-bottom: 30px;
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: fantasy;
+}
+.home{
+    margin-right: 300px;
+    background-color: rgb(235, 227, 227);
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border-color: rgb(37, 36, 36);
+    border-radius: 10px;
+    padding: 5px;
+}
+.home:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+.more{
+    background-color: rgb(241, 237, 237);
+    text-decoration: none;
+    color: black; 
+    font-size: 30px;
+    
+    border-color: rgb(17, 17, 17);
+    border-radius: 10px;
+    padding: 5px;
+}
+.more:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+}

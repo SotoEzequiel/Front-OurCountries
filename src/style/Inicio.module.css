@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+.fondo {
+    text-align: left;
+    background-color: rgba(49, 47, 47, 0.664);
+
+}
+
+.letra {
+    margin-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 120px;
+    font-variant: small-caps;
+    font-style: oblique;
+    padding-top: 50px;
+    border-bottom: 9px solid rgba(255, 255, 255, 0.582);
+
+
+}
+
+.link {
+    text-align: center;
+    cursor: pointer;
+    font-size: 120px;
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    background-color: rgba(215, 221, 226, 0.87);
+    position: absolute;
+    margin: auto;
+    left: 35%;
+    border-radius: 30px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: 1s;
+}
+
+.link:hover{
+    transition: 1s;
+    color: rgb(60, 61, 61);
+    background-color: rgb(253, 253, 253);
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    box-shadow: 2px 12px 30px 8px rgba(0, 0, 0, 0.51);
+    margin-top: -50px;
+    font-size: 30px;
+    color: wheat;
+}
+
+.footer:hover {
+    background-color: rgba(255, 255, 255, 0.884);
+    color: black;
+    transition: 1s;
+}
+
+.a {}
+
+.a:hover {
+    color: aqua;
+    transition: 1s;
+}
