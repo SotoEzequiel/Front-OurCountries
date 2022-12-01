@@ -31,7 +31,7 @@ export default function Home() {
         <div className={estilos.divPrincipal}>
             <OrdenamientoYFiltrado setCurrentPage={setCurrentPage}/>
             <div  className={estilos.SearchBar}>
-                        <SearchBar />
+                        <SearchBar paginado={paginado}/>
             </div>
 
             <div>
@@ -40,10 +40,6 @@ export default function Home() {
                     allCountries={stateRedux&&stateRedux.country.length}
                     currentPage={currentPage}
                     />
-                    
-                   
-                    
-                    
                     <div className={estilos.cards}>{
                     currentCountry&&currentCountry.length?currentCountry.map(c=>{
                         return(

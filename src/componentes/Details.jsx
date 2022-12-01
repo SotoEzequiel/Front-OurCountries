@@ -30,9 +30,9 @@ export function Details({ id }) {
                                 <div className={estilos.flag}>
                                     <img className={estilos.img} src={e.img} alt={"imagen de " + e.name} />
                                     <div className={estilos.flagR}>
-                                        <p className={estilos.name}>{e.name}</p>
+                                        <p className={estilos.nameP}>{e.name}</p>
                                         <p className={estilos.name}>Capital: {e.capital}</p>
-                                        <p className={estilos.name}>Population: {e.poblacion}</p>
+                                        <p className={estilos.name}>Population: {e.poblacion} people</p>
                                     </div>
                                 </div>
                                 <div className={estilos.extra}>
@@ -40,11 +40,9 @@ export function Details({ id }) {
                                         <p className={estilos.datos}>Continent:  { e.continente}</p>
                                         <p className={estilos.datos}>Subregion:  {e.subregion}</p>
                                         <p className={estilos.datos}>Area:  {e.area}km²</p>
-                                        <p>{"Car side:    "+e.car}</p>
-                                        <p>Main time zone:  {e.timezone}</p>
+                                        <p className={estilos.datos}>{"Car side:    "+e.car}</p>
+                                        <p className={estilos.datos}>Main time zone:  {e.timezone}</p>
                                     </div>
-                                    <iframe src={e.maps} width="500" height="400" ></iframe>
-
                                 </div>
                             </div>
                             <div>

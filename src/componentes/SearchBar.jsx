@@ -3,7 +3,8 @@ import { useDispatch } from "react-redux";
 import {Buscar_PorNombre} from "../redux/actions.js"
 import estilos from "../style/SearchBar.module.css"
 
-export default function SearchBar() {
+
+export default function SearchBar({paginado}) {
 
     const [state,setState]=useState("")
     const dispatch=useDispatch()
@@ -15,9 +16,9 @@ export default function SearchBar() {
         e.preventDefault()
         dispatch(Buscar_PorNombre(state))
         setState("");
-
+        paginado(1)
     }
-
+    console.log(paginado)
     return(
         <div className={estilos.div}> 
             
