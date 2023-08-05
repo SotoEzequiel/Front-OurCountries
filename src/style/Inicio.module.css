@@ -3,7 +3,7 @@
 .fondo {
     text-align: left;
     background-color: rgba(49, 47, 47, 0.664);
-
+    
 }
 
 .letra {
@@ -15,31 +15,30 @@
     font-style: oblique;
     padding-top: 50px;
     border-bottom: 9px solid rgba(255, 255, 255, 0.582);
-
-
 }
 
+.counterLink{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
 .link {
-    text-align: center;
-    cursor: pointer;
-    font-size: 120px;
-    text-decoration: none;
-    color: rgb(10, 10, 10);
-    background-color: rgba(215, 221, 226, 0.87);
-    position: absolute;
-    margin: auto;
-    left: 35%;
-    border-radius: 30px;
-    padding-left: 22px;
-    padding-right: 22px;
-    transition: 1s;
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    border-radius: 1%;
+    padding: 2rem;
+    background-color: #1c1d1d59;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .link:hover{
-    transition: 1s;
-    color: rgb(60, 61, 61);
-    background-color: rgb(253, 253, 253);
-    text-decoration: underline;
+   transition: 1s;
+   color: #0f0f0f;
+   background-color: white;
 }
 
 .footer {
@@ -48,6 +47,7 @@
     margin-top: -50px;
     font-size: 30px;
     color: wheat;
+
 }
 
 .footer:hover {
@@ -56,9 +56,8 @@
     transition: 1s;
 }
 
-.a {}
 
 .a:hover {
     color: aqua;
-    transition: 1s;
+    text-decoration: none;
 }

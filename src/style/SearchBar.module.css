@@ -1,29 +1,31 @@
-.bar{
-   width: 300px;
-   font-size: 26px;
-   text-decoration: none;
-   border-style: none;
-    height: 30px;
-   background-color: rgb(249, 244, 252);
-   border-radius: 7px;
-   font-family: fantasy;
-   margin-top: 15px;
-   color: rgb(53, 50, 46);
+.div {
+  text-align: center;
 }
-.button{
-        height: 33px;
-        display: inline-block;
-        bottom: 3px;
-        background-color:rgb(245, 241, 248) ;
-        border-radius: 30px;
-        border-style: hidden;
-        font-size: 15px;
-        font-weight: bold;
-        font-family: fantasy;
-        color: rgb(54, 54, 52);
-        text-decoration: none;
-        position: relative;
+.bar {
+  width: 300px;
+  font-size: 1rem;
+  text-decoration: none;
+  border-style: none;
+  height: 2rem;
+  background-color: rgb(249, 244, 252);
+  border-radius: 7px;
+  font-family: fantasy;
+  margin-top: 15px;
+  color: rgb(53, 50, 46);
 }
-.nav{
+.button {
+  padding: 0.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  background-color: rgb(230, 230, 230);
+  color: rgb(10, 10, 10);
+  margin-left: 1rem;
+  border-radius: .2rem;
 
+}
+.button:hover{
+        background-color: rgb(160, 158, 158);
+}
+.nav {
 }

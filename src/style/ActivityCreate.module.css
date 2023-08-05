@@ -1,8 +1,9 @@
 .todo{
-    background-color: rgba(231, 227, 235, 0.527);
+    background-color: rgba(231, 227, 235, 0.644);
     color: rgb(28, 28, 29);
-    padding-top: 30px;
-   
+    margin: 2rem;
+   text-align: center;
+
 }
 .tituloCreate{
     /* background-color: red; */
@@ -82,7 +83,8 @@ font-size: 20px;
     margin-right: 45%;
 }
 .error{
-    color: rgb(0, 0, 0);
+    text-align: start;
+    color: rgb(248, 239, 239);
     font-size: 15px;
     margin-left: 35%;
     margin-right: 35%;

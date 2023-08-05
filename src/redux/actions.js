@@ -1,10 +1,10 @@
 import axios from "axios"
 
-
+const apiUrl = import.meta.env.VITE_BACKEND_URL
 export function GetCountries() {
     return async function (distpatch) {
         try {
-            let api = await axios.get("/country")
+            let api = await axios.get(`${apiUrl}/country`)
 
             return distpatch({
                 type: "GET_COUNTRIES",
@@ -58,7 +58,7 @@ export function Ordenamiento_Nombre(payload) {
 export function Buscar_PorNombre(name) {
     return async function (dispatch) {
         try {
-            let api = await axios.get("/country?name=" + name)
+            let api = await axios.get(apiUrl + "/country?name=" + name)
             return dispatch({
                 type: "GET_NOMBRE",
                 payload: api.data
@@ -73,7 +73,7 @@ export function Buscar_PorNombre(name) {
 export function CrearActividad(actividad) {
     return async function (dispatch) {
         try {
-            let json = await axios.post("/activity", actividad)
+            let json = await axios.post(apiUrl + "/activity", actividad)
             console.log(json)
             return json
         } catch (error) {

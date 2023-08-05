@@ -2,7 +2,7 @@ import React from "react"
 import { useDispatch,useSelector } from "react-redux";
 import { useState } from "react";
 import {CrearActividad, GetCountries} from "../redux/actions"
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import estilo from "../style/ActivityCreate.module.css"
 import { useEffect } from "react";
 
@@ -10,7 +10,7 @@ export default function ActivityCreate() {
 
     const dispatch=useDispatch()
     const stateRedux=useSelector(e=>e)
-    const history=useHistory()
+    const history=useNavigate()
 
     useEffect(()=>{
         dispatch(GetCountries())
@@ -82,9 +82,8 @@ export default function ActivityCreate() {
             return
         }
         
-        console.log(state)
         dispatch(CrearActividad(state))
-        history.push('/created')
+        history('/created')
     }
     
 

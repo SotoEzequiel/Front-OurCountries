@@ -1,102 +1,85 @@
 .todo{
-    background-color: rgba(18, 19, 18, 0.856);
-    backdrop-filter: blur(6px);
+    background-color: rgba(51, 51, 51, 0.719);
     color: rgb(174, 177, 179);
-    
-    color: white;
-    height: 100vh;
-    width: 100%;
-    padding-bottom: 600px;
+    padding-bottom: 10px;
 }
 .volver{
     position: absolute;
     right: 90%;
     font-size: 20px;
     top: 10px;
-    border: 1px solid rgba(0, 255, 255, 0.459);
-    color: rgb(255, 254, 254);
-    background: none;
+    background-color: aqua;
+    color: rgb(49, 48, 48);
+    border: none;
     border-radius: 5px;
     padding: 10px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .volver:hover{
-    background-color: rgb(0, 255, 255);
-    color: rgb(8, 8, 8);
+    background-color: rgb(2, 37, 37);
+    color: wheat;
 
 
 }
-
 .flag{
-    padding-top: 100px;
     display: flex;
-    justify-content: center;
-    font-size: 20px;
+    background-color: rgba(5, 0, 0, 0.637);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content:start;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 .img{
-    width: 350px;
-    height: 200px;
-    margin-right: 20px;
+ margin-left: 200px;
+ width: 400px;
 }
 .flagR{
-   margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
     
 }
 
 .name{
-    text-transform: capitalize;
-    color: white;
-
-}
-.nameP{
-    font-size: 35px;
+    font-size: 30px;
+    font-weight: 600;
     text-transform: capitalize;
 }
 .extra{
-    
-   
+    background-color: rgba(5, 0, 0, 0.637);
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-top: 30px;
 }
 .datost{
     display: flex;
-    justify-content: center;
-    font-size: 28px;
-    margin-top: 40px;
-    margin-bottom: 70px;
-}
-.datos{
-    margin-left: 18px;
-    margin-right: 18px;
-    padding: 5px;
-    border: 1px solid aqua;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .actividades{
-    background-color: rgba(18, 19, 18, 0.856);
-    backdrop-filter: blur(6px);
+    background-color: rgba(136, 130, 130, 0.596);
     margin-left: 2%;
     margin-right: 2%;
-    color: rgb(247, 241, 241);
+    color: rgb(17, 17, 17);
     margin-bottom: 30px;
     padding: 20px;
-    border: 1px solid aqua;
 }
 .ATitulo{
         text-decoration: underline;
     }
 .datosActividades{
-    /* background-color: rgba(194, 189, 189, 0.596); */
+    background-color: rgba(194, 189, 189, 0.596);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 20px;
     font-weight: 500;
     margin:10px;
-    border: 1px solid aqua;
+    
     padding: 10px;
-}
-.p{
-    margin-left: 4%;
-    margin-right: 4%;
-}
-h1{
-    font-weight: 300;
 }
